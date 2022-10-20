@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container1">
+
+        <h1>List of Products</h1>
+
+        <form id="form">
+
+            <div class="form-input">
+                <input type="text" id="pname" placeholder="Product Name..">
+            </div>
+
+            <div class="form-input">
+                <input type="text" id="pprice" placeholder="Product Price..">
+            </div>
+
+            <div class="form-input">
+                <input type="text" id="pcategory" placeholder="Product Category..">
+            </div>
+
+            <div class="form-input">
+                <textarea id="pdescription" rows="4" placeholder="Product Description.."></textarea>
+            </div>
+
+            <input type="submit" value="Add Product">
+
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Product Price</th>
+                    <th>Product Category</th>
+                    <th>Product Description</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+
+            <tbody id="product-list"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
